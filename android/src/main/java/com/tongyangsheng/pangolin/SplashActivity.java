@@ -219,6 +219,7 @@ public class SplashActivity extends Activity {
      */
     private void goToMainActivity() {
         this.finish();
+        this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     private void showToast(String msg) {

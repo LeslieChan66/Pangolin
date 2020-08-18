@@ -179,6 +179,11 @@ FlutterMethodChannel* globalMethodChannel;
     [splashAd removeFromSuperview];
 }
 
+//开屏广告加载失败
+- (void)splashAd:(BUSplashAdView *)splashAd didFailWithError:(NSError * _Nullable)error {
+    [splashAd removeFromSuperview];
+}
+
 #pragma BUNativeExpressBannerViewDelegate
 - (void)nativeExpressBannerAdViewDidLoad:(BUNativeExpressBannerView *)bannerAdView {
 }

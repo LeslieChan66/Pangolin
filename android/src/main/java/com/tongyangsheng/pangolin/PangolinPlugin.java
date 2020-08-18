@@ -160,6 +160,7 @@ public class PangolinPlugin implements FlutterPlugin, MethodCallHandler, Activit
       intent.putExtra("mCodeId",mCodeId);
       intent.putExtra("debug",deBug);
       activity.startActivity(intent);
+      activity.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
     else if (call.method.equals("loadRewardAd")) {
       Boolean isHorizontal = call.argument("isHorizontal");
