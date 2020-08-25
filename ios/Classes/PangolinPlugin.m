@@ -62,8 +62,8 @@ FlutterMethodChannel* globalMethodChannel;
         UIWindow *keyWindow = [UIApplication sharedApplication].windows.firstObject;
         // Footer
         UIImageView *logoView = [[UIImageView alloc] init];
-        logoView.frame = CGRectMake(0, mainframe.size.height * 7 / 8, mainframe.size.width / 2, mainframe.size.height / 8)
-        logoView.image = [UIImage imageNamed:@"logo"]
+        logoView.frame = CGRectMake(0, mainframe.size.height * 7 / 8, mainframe.size.width / 2, mainframe.size.height / 8);
+        logoView.image = [UIImage imageNamed:@"logo"];
         [keyWindow.rootViewController.view addSubview:logoView];
         [splashView loadAdData];
         [keyWindow.rootViewController.view addSubview:splashView];
