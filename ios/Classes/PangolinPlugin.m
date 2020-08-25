@@ -56,13 +56,13 @@ FlutterMethodChannel* globalMethodChannel;
         [BUAdSDKManager setIsPaidApp:NO];
         [BUAdSDKManager setLoglevel:BUAdSDKLogLevelDebug];
         CGRect mainframe = [UIScreen mainScreen].bounds;
-        CGRect splashFrame = CGRectMake(0, 0, mainframe.width, mainframe.height * 7 / 8);
+        CGRect splashFrame = CGRectMake(0, 0, mainframe.size.width, mainframe.size.height * 7 / 8);
         BUSplashAdView *splashView = [[BUSplashAdView alloc] initWithSlotID:mCodeId frame:splashFrame];
         splashView.delegate = self;
         UIWindow *keyWindow = [UIApplication sharedApplication].windows.firstObject;
         // Footer
         UIImageView *logoView = [[UIImageView alloc] init];
-        logoView.frame = CGRectMake(0, mainframe.height * 7 / 8, mainframe.width / 2, mainframe.height / 8)
+        logoView.frame = CGRectMake(0, mainframe.size.height * 7 / 8, mainframe.size.width / 2, mainframe.size.height / 8)
         logoView.image = [UIImage imageNamed:@"logo"]
         [keyWindow.rootViewController.view addSubview:logoView];
         [splashView loadAdData];
