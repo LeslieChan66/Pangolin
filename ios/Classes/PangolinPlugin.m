@@ -51,20 +51,38 @@ FlutterMethodChannel* globalMethodChannel;
     }
     else if([@"loadSplashAd" isEqualToString:call.method])
     {
+
         NSString* mCodeId = call.arguments[@"mCodeId"];
-        
         [BUAdSDKManager setIsPaidApp:NO];
         [BUAdSDKManager setLoglevel:BUAdSDKLogLevelDebug];
         CGRect mainframe = [UIScreen mainScreen].bounds;
         CGRect splashFrame = CGRectMake(0, 0, mainframe.size.width, mainframe.size.height * 7 / 8);
-        BUSplashAdView *splashView = [[BUSplashAdView alloc] initWithSlotID:mCodeId frame:splashFrame];
-        splashView.delegate = self;
+        
+        // footer Container Height 120
+        UIView *view = [[UIView alloc] init];
+        view.frame = CGRectMake(0, mainframe.size.height - 120, mainframe.size.width, 120);
+        view.backgroundColor = [UIColor whiteColor];
         UIWindow *keyWindow = [UIApplication sharedApplication].windows.firstObject;
+        [keyWindow.rootViewController.view addSubview:view];
+
         // Footer
         UIImageView *logoView = [[UIImageView alloc] init];
-        logoView.frame = CGRectMake(0, mainframe.size.height * 7 / 8, mainframe.size.width / 2, mainframe.size.height / 8);
+        logoView.frame = CGRectMake(mainframe.size.width * 1 / 4, mainframe.size.height - 97.5, 65, 65);
         logoView.image = [UIImage imageNamed:@"logo"];
+
+        UIImageView *textView = [[UIImageView alloc] init];
+        textView.frame = CGRectMake(mainframe.size.width * 3 / 4 - 110, mainframe.size.height - 80, 110, 40);
+        textView.image = [UIImage imageNamed:@"newbie_text"];
+        
+        BUSplashAdView *splashView = [[BUSplashAdView alloc] initWithSlotID:mCodeId frame:splashFrame];
+        splashView.delegate = self;
+        splashView.tolerateTimeout = 5;
+
+    
+
+        [keyWindow.rootViewController.view addSubview:textView];
         [keyWindow.rootViewController.view addSubview:logoView];
+
         [splashView loadAdData];
         [keyWindow.rootViewController.view addSubview:splashView];
         splashView.rootViewController = keyWindow.rootViewController;
@@ -118,6 +136,7 @@ FlutterMethodChannel* globalMethodChannel;
     }
     else if([@"loadInterstitialAd" isEqualToString:call.method])
     {
+        NSLog(@"111");
         NSString* mCodeId = call.arguments[@"mCodeId"];
         NSNumber* expressViewWidth = call.arguments[@"expressViewWidth"];
         NSNumber* expressViewHeight = call.arguments[@"expressViewHeight"];
@@ -183,11 +202,19 @@ FlutterMethodChannel* globalMethodChannel;
 //开屏视频关闭
 - (void)splashAdDidClose:(BUSplashAdView *)splashAd {
     [splashAd removeFromSuperview];
+    for(UIView *view in [self.getRootViewController.view subviews])
+    {
+        [view removeFromSuperview];
+    }
 }
 
 //开屏广告加载失败
 - (void)splashAd:(BUSplashAdView *)splashAd didFailWithError:(NSError * _Nullable)error {
     [splashAd removeFromSuperview];
+    for(UIView *view in [self.getRootViewController.view subviews])
+    {
+        [view removeFromSuperview];
+    }
 }
 
 #pragma BUNativeExpressBannerViewDelegate

@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69a1e289-c17a-4105-997e-40a0d7ef5a11" name="Default Changelist" comment="banner iOS contact step1">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/pangolin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/PangolinPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/PangolinPlugin.m" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_29" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -22,6 +26,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1Zpss1lti5NrD8ewFbQkIuqUfdq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,6 +49,18 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -49,6 +72,56 @@
       <option name="presentableId" value="Default" />
       <updated>1585547572705</updated>
     </task>
+    <task id="LOCAL-00001" summary="splash animation setup">
+      <created>1597746021489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597746021489</updated>
+    </task>
+    <task id="LOCAL-00002" summary="banner iOS contact step1">
+      <created>1597807451922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597807451922</updated>
+    </task>
+    <task id="LOCAL-00003" summary="banner iOS contact step1">
+      <created>1598320556297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598320556297</updated>
+    </task>
+    <task id="LOCAL-00004" summary="logo image">
+      <created>1598320616310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598320616310</updated>
+    </task>
+    <task id="LOCAL-00005" summary="banner iOS contact step1">
+      <created>1598320878339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598320878339</updated>
+    </task>
+    <task id="LOCAL-00006" summary="banner iOS contact step1">
+      <created>1598322207559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598322207559</updated>
+    </task>
+    <task id="LOCAL-00007" summary="banner iOS contact step1">
+      <created>1598322355433</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598322355433</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,67 +138,49 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="splash animation setup" />
+    <MESSAGE value="logo image" />
     <MESSAGE value="banner iOS contact step1" />
     <option name="LAST_COMMIT_MESSAGE" value="banner iOS contact step1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1347" y="74" width="857" height="1080" key="CommitChangelistDialog2" timestamp="1595317090435">
-      <screen x="-1920" y="74" width="1920" height="1080" />
-    </state>
-    <state x="-1347" y="74" width="857" height="1080" key="CommitChangelistDialog2/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595227543573" />
-    <state x="-1347" y="74" key="CommitChangelistDialog2/0.23.1792.1018/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595317090435" />
-    <state width="1878" height="370" key="GridCell.Tab.0.bottom" timestamp="1597212248215">
-      <screen x="-1920" y="74" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="370" key="GridCell.Tab.0.bottom/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1597212248215" />
-    <state width="1750" height="534" key="GridCell.Tab.0.bottom/0.0.1792.1120/-1920.74.1920.1080@0.0.1792.1120" timestamp="1597136269426" />
-    <state width="1750" height="399" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1596197908298" />
-    <state width="1878" height="416" key="GridCell.Tab.0.bottom/0.23.1792.1018/-1920.97.1920.1057@-1920.97.1920.1057" timestamp="1595209446504" />
-    <state width="1878" height="416" key="GridCell.Tab.0.bottom/0.23.1792.1097/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595213254150" />
-    <state width="1878" height="370" key="GridCell.Tab.0.center" timestamp="1597212248214">
-      <screen x="-1920" y="74" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="370" key="GridCell.Tab.0.center/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1597212248214" />
-    <state width="1750" height="534" key="GridCell.Tab.0.center/0.0.1792.1120/-1920.74.1920.1080@0.0.1792.1120" timestamp="1597136269425" />
-    <state width="1750" height="399" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1596197908297" />
-    <state width="1878" height="416" key="GridCell.Tab.0.center/0.23.1792.1018/-1920.97.1920.1057@-1920.97.1920.1057" timestamp="1595209446503" />
-    <state width="1878" height="416" key="GridCell.Tab.0.center/0.23.1792.1097/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595213254149" />
-    <state width="1878" height="370" key="GridCell.Tab.0.left" timestamp="1597212248213">
-      <screen x="-1920" y="74" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="370" key="GridCell.Tab.0.left/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1597212248213" />
-    <state width="1750" height="534" key="GridCell.Tab.0.left/0.0.1792.1120/-1920.74.1920.1080@0.0.1792.1120" timestamp="1597136269424" />
-    <state width="1750" height="399" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1596197908296" />
-    <state width="1878" height="416" key="GridCell.Tab.0.left/0.23.1792.1018/-1920.97.1920.1057@-1920.97.1920.1057" timestamp="1595209446503" />
-    <state width="1878" height="416" key="GridCell.Tab.0.left/0.23.1792.1097/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595213254148" />
-    <state width="1878" height="370" key="GridCell.Tab.0.right" timestamp="1597212248214">
-      <screen x="-1920" y="74" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="370" key="GridCell.Tab.0.right/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1597212248214" />
-    <state width="1750" height="534" key="GridCell.Tab.0.right/0.0.1792.1120/-1920.74.1920.1080@0.0.1792.1120" timestamp="1597136269425" />
-    <state width="1750" height="399" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1596197908297" />
-    <state width="1878" height="416" key="GridCell.Tab.0.right/0.23.1792.1018/-1920.97.1920.1057@-1920.97.1920.1057" timestamp="1595209446503" />
-    <state width="1878" height="416" key="GridCell.Tab.0.right/0.23.1792.1097/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595213254149" />
-    <state x="623" y="94" key="SettingsEditor" timestamp="1595814958131">
-      <screen x="0" y="23" width="1792" height="1014" />
-    </state>
-    <state x="-1253" y="150" key="SettingsEditor/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595814940256" />
-    <state x="623" y="94" key="SettingsEditor/0.23.1792.1014/-1920.97.1920.1057@0.23.1792.1014" timestamp="1595814958131" />
-    <state x="-1360" y="350" key="Vcs.Push.Dialog.v2" timestamp="1595227559050">
-      <screen x="-1920" y="74" width="1920" height="1080" />
-    </state>
-    <state x="-1360" y="350" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595227559050" />
-    <state x="-1316" y="355" width="930" height="518" key="find.popup" timestamp="1595229197967">
-      <screen x="-1920" y="74" width="1920" height="1080" />
-    </state>
-    <state x="-1316" y="355" width="930" height="518" key="find.popup/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595229197967" />
-    <state x="-1395" y="394" key="git4idea.merge.GitPullDialog" timestamp="1595227551600">
-      <screen x="-1920" y="74" width="1920" height="1080" />
-    </state>
-    <state x="-1395" y="394" key="git4idea.merge.GitPullDialog/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595227551600" />
-    <state x="-1295" y="315" width="670" height="676" key="search.everywhere.popup" timestamp="1595231168283">
-      <screen x="-1920" y="74" width="1920" height="1080" />
-    </state>
-    <state x="-1295" y="315" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" timestamp="1595231168283" />
+    <state x="-1347" y="74" width="857" height="1080" key="CommitChangelistDialog2" />
+    <state x="-1347" y="74" width="857" height="1080" key="CommitChangelistDialog2/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state x="-1347" y="74" key="CommitChangelistDialog2/0.23.1792.1018/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state width="1878" height="370" key="GridCell.Tab.0.bottom" />
+    <state width="1878" height="370" key="GridCell.Tab.0.bottom/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state width="1750" height="534" key="GridCell.Tab.0.bottom/0.0.1792.1120/-1920.74.1920.1080@0.0.1792.1120" />
+    <state width="1750" height="399" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" />
+    <state width="1878" height="416" key="GridCell.Tab.0.bottom/0.23.1792.1018/-1920.97.1920.1057@-1920.97.1920.1057" />
+    <state width="1878" height="416" key="GridCell.Tab.0.bottom/0.23.1792.1097/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state width="1878" height="370" key="GridCell.Tab.0.center" />
+    <state width="1878" height="370" key="GridCell.Tab.0.center/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state width="1750" height="534" key="GridCell.Tab.0.center/0.0.1792.1120/-1920.74.1920.1080@0.0.1792.1120" />
+    <state width="1750" height="399" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" />
+    <state width="1878" height="416" key="GridCell.Tab.0.center/0.23.1792.1018/-1920.97.1920.1057@-1920.97.1920.1057" />
+    <state width="1878" height="416" key="GridCell.Tab.0.center/0.23.1792.1097/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state width="1878" height="370" key="GridCell.Tab.0.left" />
+    <state width="1878" height="370" key="GridCell.Tab.0.left/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state width="1750" height="534" key="GridCell.Tab.0.left/0.0.1792.1120/-1920.74.1920.1080@0.0.1792.1120" />
+    <state width="1750" height="399" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" />
+    <state width="1878" height="416" key="GridCell.Tab.0.left/0.23.1792.1018/-1920.97.1920.1057@-1920.97.1920.1057" />
+    <state width="1878" height="416" key="GridCell.Tab.0.left/0.23.1792.1097/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state width="1878" height="370" key="GridCell.Tab.0.right" />
+    <state width="1878" height="370" key="GridCell.Tab.0.right/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state width="1750" height="534" key="GridCell.Tab.0.right/0.0.1792.1120/-1920.74.1920.1080@0.0.1792.1120" />
+    <state width="1750" height="399" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" />
+    <state width="1878" height="416" key="GridCell.Tab.0.right/0.23.1792.1018/-1920.97.1920.1057@-1920.97.1920.1057" />
+    <state width="1878" height="416" key="GridCell.Tab.0.right/0.23.1792.1097/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state x="623" y="94" key="SettingsEditor" />
+    <state x="-1253" y="150" key="SettingsEditor/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state x="623" y="94" key="SettingsEditor/0.23.1792.1014/-1920.97.1920.1057@0.23.1792.1014" />
+    <state x="-1360" y="350" key="Vcs.Push.Dialog.v2" />
+    <state x="-1360" y="350" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state x="-1316" y="355" width="930" height="518" key="find.popup" />
+    <state x="-1316" y="355" width="930" height="518" key="find.popup/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state x="-1395" y="394" key="git4idea.merge.GitPullDialog" />
+    <state x="-1395" y="394" key="git4idea.merge.GitPullDialog/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
+    <state x="-1295" y="315" width="670" height="676" key="search.everywhere.popup" />
+    <state x="-1295" y="315" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120/-1920.74.1920.1080@-1920.74.1920.1080" />
   </component>
 </project>
