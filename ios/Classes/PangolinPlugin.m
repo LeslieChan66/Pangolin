@@ -89,6 +89,7 @@ FlutterMethodChannel* globalMethodChannel;
     }
     else if([@"loadRewardAd" isEqualToString:call.method])
     {
+        NSLog(@"激励视频加载");
         NSString* slotId = call.arguments[@"mCodeId"];
         NSString* userId = call.arguments[@"userID"];
         NSString* rewardName = call.arguments[@"rewardName"];
@@ -174,14 +175,22 @@ FlutterMethodChannel* globalMethodChannel;
     return rootVC;
 }
 
+// 激励视频加载完成
+- (void)nativeExpressRewardedVideoAdDidLoad:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd {
+    NSLog(@"激励视频加载完成");
+    [self.rewardedAd showAdFromRootViewController: [self rootViewController]];
+}
+
 //激励视频渲染完成并展示
 - (void)nativeExpressRewardedVideoAdViewRenderSuccess:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd {
+    NSLog(@"激励视频渲染完成展示");
     [self.rewardedAd showAdFromRootViewController: [self rootViewController]];
     
 }
 
 //激励视频播放完成
 - (void)nativeExpressRewardedVideoAdDidPlayFinish:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *_Nullable)error {
+    NSLog(@"激励视频播放完成");
     NSMutableDictionary *mutableDictionary=[NSMutableDictionary dictionaryWithCapacity:3];
     [mutableDictionary setValue:@YES forKey:@"rewardVerify"];
     [mutableDictionary setValue:NULL forKey:@"rewardAmount"];
