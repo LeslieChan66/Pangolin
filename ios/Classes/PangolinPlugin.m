@@ -1,6 +1,7 @@
 #import "PangolinPlugin.h"
 #import <BUAdSDK/BUAdSDK.h>
-
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
+#import <AdSupport/AdSupport.h>
 @interface PangolinPlugin ()<BUNativeExpressRewardedVideoAdDelegate,BUSplashAdDelegate,
 BUNativeAdsManagerDelegate,BUVideoAdViewDelegate,BUNativeAdDelegate,
 BUNativeExpressAdViewDelegate,
@@ -51,12 +52,17 @@ FlutterMethodChannel* globalMethodChannel;
     }
     else if([@"loadSplashAd" isEqualToString:call.method])
     {
-
+        if (@available(iOS 14, *)) {
+            [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            }];
+        } else {
+            // Fallback on earlier versions
+        }
         NSString* mCodeId = call.arguments[@"mCodeId"];
         [BUAdSDKManager setIsPaidApp:NO];
         [BUAdSDKManager setLoglevel:BUAdSDKLogLevelDebug];
         CGRect mainframe = [UIScreen mainScreen].bounds;
-        CGRect splashFrame = CGRectMake(0, 0, mainframe.size.width, mainframe.size.height * 7 / 8);
+        CGRect splashFrame = CGRectMake(0, 0, mainframe.size.width, mainframe.size.height - 120);
         
         // footer Container Height 120
         UIView *view = [[UIView alloc] init];

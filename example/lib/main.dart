@@ -138,7 +138,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const FixedSizeText('Plugin example app'),
         ),
         body: Center(
           child: Center(
@@ -147,7 +147,7 @@ class _MyAppState extends State<MyApp> {
               {
 
               },
-              child: Text("Pangolin"),
+              child: FixedSizeText("Pangolin"),
             ),
           ),
         ),
